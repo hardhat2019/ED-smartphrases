@@ -1,4 +1,4 @@
-EFAST ultrasound: An Extended Focussed Assessment with Sonography for Trauma examination has been performed.
+EFAST ultrasound: An Extended Focused Assessment with Sonography for Trauma examination has been performed.
 
 Indication/Medical Necessity: Blunt trauma
 
@@ -9,6 +9,6 @@ The pelvis demonstrated {Blank single:19197::"fluid","no fluid"}.
 The pericardial sac demonstrated {Blank single:19197::"fluid","no fluid"}.
 The Chest 2D and M mode examinations were performed.  {Blank single:19197::"Right Pneumothorax Present","Left Pneumothorax Present","Bilateral Pneumothoraces Present","No Pneumothorax seen"}
 
-Interpretation: Negative/Positive EFAST
+Interpretation: Positive EFAST
 
 Performed by: @MECRED@

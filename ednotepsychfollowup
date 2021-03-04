@@ -1,0 +1,25 @@
+@NOW@ 
+I have performed a follow up evaluation on patient being held on a 5150 hold placed at *** on ***
+Patient is actively being held in the Emergency Department pending bed availability/ acceptance at a psychiatric facility
+*** Document updated clinical status here
+
+@V@
+PHYSICAL EXAM:
+
+CONSTITUTIONAL:  non toxic and well appearing
+EYES: The pupils are equally round and reactive to light.  The sclera are clear/ anicteric, conjunctivae normal.  
+HEAD/ ENT: Normocephalic. Atraumatic. Oropharynx clear. Mucous membranes moist
+NECK: Supple. no JVD 
+CV: RRR, well perfused
+RESP: CTAB, normal effort
+GI: Soft, non-tender, non-distended, no guarding
+MUSCULOSKELETAL: No extremity tenderness, no back tenderness
+SKIN: No rashes, well perfused
+NEUROLOGIC: Alert, oriented. Face is symmetric. Normal muscle tone and strength of all four extremities. Sensation is grossly intact.
+
+Patient's chronic medication regimen has been reviewed and is actively ordered for scheduled administration
+@MEDSCURRENT@
+
+Patient requires continued 5150 hold due to {JMH Multiple Wild Card:40000::"suicidal ideations", "suicidal ideations with plan and/or attempt","homicidal ideations","grave disability"}
+Patient remains clinically stable after initial medical clearance and will continue to be monitored in the Emergency Department until acceptance and transfer to a psychiatric facility
+Patient acknowledges understanding and agrees to plan of care

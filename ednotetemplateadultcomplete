@@ -15,6 +15,8 @@ Interpreter Services:
 [ ] [VIDEO] Video interpreter used.
 [ ] [SPOKE PREFERRED] I communicated with the patient in their preferred language.
 
+{edsldocinterpreter (Optional):26942}
+
 Review of Records:
 [ ] Not reviewed.[or just leave blank?]
 [ ] No relevant recent visits.
@@ -157,3 +159,4 @@ Disposition: ***
 DISCHARGE MEDICATIONS
 
 @EDPTMEDSTART@
+

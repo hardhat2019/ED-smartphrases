@@ -1,4 +1,5 @@
 
+
 History of Present Illness
 @CC@
 
@@ -22,7 +23,6 @@ Review of Records:
 
 ROS: Except as noted in the HPI, all other systems are reviewed and negative.
 
-PHYSICAL EXAM
 @OTHERNOTESBEGIN@
 PAST MEDICAL, SURGICAL, SOCIAL, & FAMILY HISTORY
 @PMH@
@@ -41,8 +41,17 @@ PHYSICAL EXAM
 Triage Vital Signs:
 @FLOW(6,8,5,9,10,301030,14:first)@
 
+@FLOW(6:first)@ | @FLOW(8:first)@ | @FLOW(5:first)@ | @FLOW(9:first)@ | @FLOW(10:first)@ @FLOW(301030:first)@ | @FLOW(14:first)@
+
+
+@FLOW(6:first:1)@ | @FLOW(8:first:1)@ | @FLOW(5:first:1)@ | @FLOW(9:first:1)@ | @FLOW(10:first:1)@ @FLOW(301030:first:1)@ | @FLOW(14:first:1)@
+
+
 O2 Saturation Interpretation
 The oxygen saturation is @FLOW(10:FIRST)@ [@FLOW(301030:First)@], which is ***normal per my interpretation.
+
+The oxygen saturation is @FLOW(10:FIRST)@ [@FLOW(301030:First)@], which is {Desc; adequate/inadequate:30688:o} per my interpretation.
+
 
 {exam}
 
@@ -64,8 +73,6 @@ Emergency Department Fluid Administration
 @OTHERNOTESBEGIN@
 Today, based on my clinical judgement, I believe the patient required rapid parenteral fluid treatment while in the emergency department and that oral hydration was not indicated. The decision to give IV fluids was based in part on the following:
 
-{edsldocivf (Optional):26940}
-
 [ ] Not applicable, IV fluids were not administered during this ED encounter.
 [ ] [VS] Abnormal vital signs (fever, tachycardia, bradycardia, hypotension, etc).
 [ ] [LABS] Laboratory abnormality (elevated glucose, BUN/Cr, Lactate, CK, Na, etc).
@@ -77,6 +84,9 @@ Today, based on my clinical judgement, I believe the patient required rapid pare
 [ ] [ONGOING LOSSES] Ongoing volume voss (vomiting/diarrhea, burns, or other excessive losses).
 [ ] [SEVERE NAUSEA]Ongoing severe nausea and not tolerating oral hydration.
 [ ] [OTHER] Fluids ordered for other reasons (decision based on other clinical factors).
+
+{edsldocivf (Optional):26940}
+
 @OTHERNOTESEND@
 Sepsis Decision Making
 @OTHERNOTESBEGIN@
@@ -103,7 +113,12 @@ Actual Wt or IBW	Resuscitation Volume
 [ ] 	Less	2000 mL		[ ] 	>100 kg	Recommend IBW
 
 {edsldocsepsisivf (Optional):26927}
+
+
 @OTHERNOTESEND@
+
+{edsldocsepsismdm:26941}
+
 COVID-19 Pandemic
 @OTHERNOTESBEGIN@
 This patient was evaluated for the symptoms described in the history of present illness. They were evaluated in the context of the global COVID-19 pandemic, which necessitated consideration that the patient might be at risk for infection with the SARS-CoV-2 virus that causes COVID-19. Institutional protocols and algorithms that pertain to the evaluation of patients at risk for COVID-19 are in a state of rapid change based on information released by regulatory bodies including the CDC and federal and state organizations. These policies and algorithms were followed during the patient's care.

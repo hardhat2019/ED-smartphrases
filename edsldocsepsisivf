@@ -1,0 +1,19 @@
+[Doubt Sepsis] At this time the clinician does not suspect sepsis.
+
+[30 mL/Kg] The patient was volume resuscitated with 30 mL/kg based on measured weight.
+
+[IBW] The patient has a BMI >30 and was volume resuscitated with 30 mL/kg based on IBW.
+
+[Less: Responded] crystalloid fluids (see above for volume) were given in lieu of a 30 cc/kg bolus because the blood pressure responded to a lesser volume.
+
+[Less: Volume Overload] crystalloid fluids (see above for volume) were given in lieu of a 30 cc/kg bolus because the clinician has concern for volume overload.
+
+[Less: Heart Failure] crystalloid fluids (see above for volume) were given in lieu of a 30 cc/kg bolus because the clinician has concern for heart failure.
+
+[Less: Renal Failure] crystalloid fluids (see above for volume) were given in lieu of a 30 cc/kg bolus because the clinician has concern for renal failure.
+
+[Refused] The patient/surrogate decision maker refused 30 mL/kg fluid resuscitation after a risk/benefit discussion.
+
+[Covid] The patient has or is suspected of having SARS-CoV-2 infection (COVID-19) and thus was not resuscitated with 30 mL/kg of fluid.
+
+[Comfort] The patient/surrogate decision maker has selected hospice/comfort care, or is requesting a palliative care consult, and as a result was not resuscitated with 30 mL/kg of fluid.

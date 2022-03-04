@@ -1,30 +1,27 @@
 
 
+
 History of Present Illness
 @CC@
 
 @NAME@ is a @AGE@ @SEX@ who presents with ***
 
-
-Interpreter Services:
-[ ] [NA] None used.
-[ ] [PHONE] Phone interpreter used.
-[ ] [DECLINED/USED FAMILY]Interpreter services offered but declined. The patient opted to use family/companion instead.
-[ ] [DECLINED] Interpreter services offered but declined. The patient opted to communicate in English.
-[ ] [QEI] In-person/QEI interpreter used.
-[ ] [VIDEO] Video interpreter used.
-[ ] [SPOKE PREFERRED] I communicated with the patient in their preferred language.
-
-{edsldocinterpreter (Optional):26942}
+Interpreter Services (if used):
+[ ] [PHONE]  Phone interpreter used.
+[ ] [FAMILY]  Interpreter services offered but declined. The patient opted to use family/companion instead.
+[ ] [ENGLISH]  Interpreter services offered but declined. The patient opted to communicate in English.
+[ ] [QEI]  In-person/QEI interpreter used.
+[ ] [VIDEO]  Video interpreter used.
+[ ] [SPOKE PREFERRED]  I communicated with the patient in their preferred language.
 
 Review of Records:
-[ ] Not reviewed.[or just leave blank?]
 [ ] No relevant recent visits.
 [ ] Reviewed old records, nothing pertinent to current complaint.
-[ ] Reviewed old records, findings include ***
+[ ] Reviewed old records, findings include
 
 ROS: Except as noted in the HPI, all other systems are reviewed and negative.
 
+PMHx, MEDICATIONS, & ALLERGIES
 @OTHERNOTESBEGIN@
 PAST MEDICAL, SURGICAL, SOCIAL, & FAMILY HISTORY
 @PMH@
@@ -39,21 +36,13 @@ ALLERGIES
 @ALLERGY@
 @OTHERNOTESEND@
 PHYSICAL EXAM
-
 Triage Vital Signs:
-@FLOW(6,8,5,9,10,301030,14:first)@
-
 @FLOW(6:first)@ | @FLOW(8:first)@ | @FLOW(5:first)@ | @FLOW(9:first)@ | @FLOW(10:first)@ @FLOW(301030:first)@ | @FLOW(14:first)@
 
+O2 Saturation Interpretation:
+The oxygen saturation is @FLOW(10:FIRST)@ [@FLOW(301030:First)@], which is {Desc; adequate/inadequate:30688::"adequate"} per my interpretation.
 
-@FLOW(6:first:1)@ | @FLOW(8:first:1)@ | @FLOW(5:first:1)@ | @FLOW(9:first:1)@ | @FLOW(10:first:1)@ @FLOW(301030:first:1)@ | @FLOW(14:first:1)@
-
-
-O2 Saturation Interpretation
-The oxygen saturation is @FLOW(10:FIRST)@ [@FLOW(301030:First)@], which is ***normal per my interpretation.
-
-The oxygen saturation is @FLOW(10:FIRST)@ [@FLOW(301030:First)@], which is {Desc; adequate/inadequate:30688:o} per my interpretation.
-
+[yes-completed]
 
 {exam}
 
@@ -62,12 +51,15 @@ DIAGNOSTIC STUDIES
 ECG per my interpretation
 {EKG}
 
-Laboratory & Imaging Studies
+Laboratory Results
 @OTHERNOTESBEGIN@
 @EDTHISVISIT@
-
+@OTHERNOTESEND@
+Imaging Results
+@OTHERNOTESBEGIN@
 @WETREAD@
 @OTHERNOTESEND@
+[We can explore. Not sure if it's a JM smartphrase or from Epic. If it's an Epic smartphrase, we should not ask]
 
 REGULATORY REQUIREMENTS
 
@@ -75,25 +67,21 @@ Emergency Department Fluid Administration
 @OTHERNOTESBEGIN@
 Today, based on my clinical judgement, I believe the patient required rapid parenteral fluid treatment while in the emergency department and that oral hydration was not indicated. The decision to give IV fluids was based in part on the following:
 
-[ ] Not applicable, IV fluids were not administered during this ED encounter.
-[ ] [VS] Abnormal vital signs (fever, tachycardia, bradycardia, hypotension, etc).
-[ ] [LABS] Laboratory abnormality (elevated glucose, BUN/Cr, Lactate, CK, Na, etc).
-[ ] [NPO] Known or potential need for surgery/procedure, aspiration risk, or other contraindication to oral hydration.
-[ ] [AMS] Confusion or dementia and not able to reliably follow direction to proceed with oral hydration.
-[ ] [CONTRAST] Hydration to reduce risk of contrast induced nephropathy.
-[ ] [SEPSIS] Sepsis treatment-see below.
-[ ] [DEHYDRATION] Clinical signs of dehydration (dry membranes, poor skin turgor, etc).
-[ ] [ONGOING LOSSES] Ongoing volume voss (vomiting/diarrhea, burns, or other excessive losses).
-[ ] [SEVERE NAUSEA]Ongoing severe nausea and not tolerating oral hydration.
-[ ] [OTHER] Fluids ordered for other reasons (decision based on other clinical factors).
-
 {edsldocivf (Optional):26940}
-
 @OTHERNOTESEND@
 Sepsis Decision Making
 @OTHERNOTESBEGIN@
+SIRS	Sepsis	Severe Sepsis	Septic Shock
+T>38.3 or <36	Infection	Lactate >2	Lactate > 4
+HR > 90	+	Single SBP < 90	SBP <90 despite IVFs
+RR >20	2 SIRS	BiPAP/Vent
+WBC > 12 or <4;
+Bands > 10%		Cr or Bili >2, INR > 1.5, Plts < 100k
+
 Sepsis Recognition Time:
-Severe sepsis or septic shock criteria were met at ***
+{edsldocsepsistimestart (Optional):26944}
+
+ [completed]
 
 Delays:
 [ ] Waiting for blood cultures to be drawn would have resulted in a delay of >45 minutes in starting antibiotics.
@@ -105,46 +93,44 @@ Measured and Ideal Weights:
 @LASTWT(1)@
 @IDEALBODYWEIGHT@
 
-Volume of Resuscitation:
-		Resuscitation Volume			 Weight Range
-Actual Wt or IBW	Resuscitation Volume
-[ ] 	Exact Volume	30 mL/kg		[ ] 	<50 kg	1500 mL
-[ ] 	Less	500 mL		[ ] 	50-67 kg	2000 mL
-[ ] 	Less	1000 mL		[ ] 	67-83 kg	2500 mL
-[ ] 	Less	1500 mL		[ ] 	83-100 kg	3000 mL
-[ ] 	Less	2000 mL		[ ] 	>100 kg	Recommend IBW
-
-{edsldocsepsisivf (Optional):26927}
-
-
+Resuscitation Volume:
+	 Weight Range
+Actual Wt or IBW	30 mL/kg Resuscitation Volumes			Lesser Resuscitation Volumes
+[ ] 	Exact Weight	30 mL/kg		[ ] 	500 mL
+[ ] 	<50 kg	1500 mL		[ ] 	1000 mL
+[ ] 	50-67 kg	2000 mL		[ ] 	1500 mL
+[ ] 	67-83 kg	2500 mL		[ ] 	2000 mL
+[ ] 	83-100 kg	3000 mL
+[ ] 	>100 kg	Recommend IBW
+[Ait's finicky. I tried to redo it.]
+Sepsis Fluid Decision Making: {edsldocsepsisivf (Optional):26927}
+[Completed]
 @OTHERNOTESEND@
 
 {edsldocsepsismdm:26941}
+[makes the entire sepsis section into a smartlist that by default will be hidden]
 
 COVID-19 Pandemic
 @OTHERNOTESBEGIN@
 This patient was evaluated for the symptoms described in the history of present illness. They were evaluated in the context of the global COVID-19 pandemic, which necessitated consideration that the patient might be at risk for infection with the SARS-CoV-2 virus that causes COVID-19. Institutional protocols and algorithms that pertain to the evaluation of patients at risk for COVID-19 are in a state of rapid change based on information released by regulatory bodies including the CDC and federal and state organizations. These policies and algorithms were followed during the patient's care.
 @OTHERNOTESEND@
 
-ED PROCEDURES
+ED MEDICATIONS, COURSE, & PROCEDURES
 
-***
-[critical care reminder?]
-
-ED MEDICATIONS & COURSE
-
-Medications
+ED Medications
 @EDMEDS@
 
 ED Course
 @EDCOURSE@
 
-MEDICAL DECISION MAKING
+ED Procedures
+
+
+DDX & MEDICAL DECISION MAKING
 
 @NAME@ is a @AGE@ @SEX@ who presents with ***
 
 
-[DDX section?]
 
 DIAGNOSIS & DISPOSITION
 
@@ -159,4 +145,3 @@ Disposition: ***
 DISCHARGE MEDICATIONS
 
 @EDPTMEDSTART@
-

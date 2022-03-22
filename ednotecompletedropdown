@@ -1,0 +1,136 @@
+
+
+
+History of Present Illness
+@CC@
+
+@NAME@ is a @AGE@ @SEX@ who presents ***
+
+
+Interpreter & Review of Records
+@OTHERNOTESBEGIN@
+Interpreter Services (if used):
+{edsldocinterpreter (Optional):26942}
+
+Review of Records:
+[ ] Reviewed old records, nothing pertinent to current complaint.
+[ ] No relevant recent visits.
+[ ] Reviewed old records, findings include
+@OTHERNOTESEND@
+ROS: Except as noted in the HPI, all other systems are reviewed and negative.
+
+PMHx, MEDICATIONS, & ALLERGIES
+@OTHERNOTESBEGIN@
+PAST MEDICAL, SURGICAL, SOCIAL, & FAMILY HISTORY
+@PMH@
+@PSH@
+@SOCX@
+@FAMHX@
+
+MEDICATIONS
+@HMEDS2@
+
+ALLERGIES
+@ALLERGY@
+@OTHERNOTESEND@
+PHYSICAL EXAM
+Triage Vital Signs:
+@FLOW(6:first)@ | @FLOW(8:first)@ | @FLOW(5:first)@ | @FLOW(9:first)@ | @FLOW(10:first)@ @FLOW(301030:first)@ | @FLOW(14:first)@
+Other Vital Signs:
+@VS@
+
+O2 Saturation Interpretation:
+The oxygen saturation is @FLOW(10:FIRST)@ [@FLOW(301030:First)@], which is {Desc; adequate/inadequate:30688::"adequate"} per my interpretation.
+
+{exam}
+
+DIAGNOSTIC STUDIES
+
+ECG per my interpretation
+{EKG}
+
+Laboratory Results
+@OTHERNOTESBEGIN@
+@EDTHISVISIT@
+@OTHERNOTESEND@
+Imaging Results
+@OTHERNOTESBEGIN@
+@WETREAD@
+@OTHERNOTESEND@
+
+REGULATORY REQUIREMENTS
+
+Emergency Department Fluid Administration
+@OTHERNOTESBEGIN@
+Today, based on my clinical judgement, I believe the patient required rapid parenteral fluid treatment while in the emergency department and that oral hydration was not indicated. The decision to give IV fluids was based in part on the following:
+
+{edsldocivf (Optional):26940}
+@OTHERNOTESEND@
+Sepsis Decision Making
+@OTHERNOTESBEGIN@
+SIRS	Sepsis	Severe Sepsis	Septic Shock
+T>38.3 or <36	Infection	Lactate >2	Lactate > 4
+HR > 90	+	Single SBP < 90	SBP <90 despite IVFs
+RR >20	2 SIRS	BiPAP/Vent
+WBC > 12 or <4;
+Bands > 10%		Cr or Bili >2, INR > 1.5, Plts < 100k
+
+Sepsis Recognition Time:
+{edsldocsepsistimestart (Optional):26944}
+
+Delays:
+[ ] Waiting for blood cultures to be drawn would have resulted in a delay of >45 minutes in starting antibiotics.
+[ ] After a risk/benefit discussion the patient/POA refused IV placement and blood draw (blood cultures, lactic acid).
+[ ] After a risk/benefit discussion the patient/POA refused antibiotics.
+[ ] After a risk/benefit discussion the patient/POA refused vasopressors.
+
+Measured and Ideal Weights:
+@LASTWT(1)@
+@IDEALBODYWEIGHT@
+
+Resuscitation Volume:
+	 Weight Range
+Actual Wt or IBW	30 mL/kg Resuscitation Volumes			Lesser Resuscitation Volumes
+ [ ] 	Exact Weight	30 mL/kg		 [ ] 	500 mL
+ [ ] 	<50 kg	1500 mL		 [ ] 	1000 mL
+ [ ] 	50-67 kg	2000 mL		 [ ] 	1500 mL
+ [ ] 	67-83 kg	2500 mL		 [ ] 	2000 mL
+ [ ] 	83-100 kg	3000 mL
+ [ ] 	>100 kg	Recommend IBW
+
+Sepsis Fluid Decision Making: {edsldocsepsisivf (Optional):26927}
+@OTHERNOTESEND@
+
+COVID-19 Pandemic
+@OTHERNOTESBEGIN@
+This patient was evaluated for the symptoms described in the history of present illness. They were evaluated in the context of the global COVID-19 pandemic, which necessitated consideration that the patient might be at risk for infection with the SARS-CoV-2 virus that causes COVID-19. Institutional protocols and algorithms that pertain to the evaluation of patients at risk for COVID-19 are in a state of rapid change based on information released by regulatory bodies including the CDC and federal and state organizations. These policies and algorithms were followed during the patient's care.
+@OTHERNOTESEND@
+
+ED MEDICATIONS, COURSE, & PROCEDURES
+
+ED Medications
+@EDMEDS@
+
+ED Course
+@EDCOURSE@
+
+ED Procedures
+
+
+DDX & MEDICAL DECISION MAKING
+
+@NAME@ is a @AGE@ @SEX@ who presents ***
+
+
+
+DIAGNOSIS & DISPOSITION
+
+@DIAGX@
+
+@DISPOED@
+
+
+
+DISCHARGE MEDICATIONS
+
+@EDPTMEDSTART@

@@ -1,0 +1,90 @@
+
+
+
+History of Present Illness
+@CC@
+
+@NAME@ is a @AGE@ @SEX@ who presents ***
+
+
+Interpreter & Review of Records
+@OTHERNOTESBEGIN@
+Interpreter Services (if used):
+{edsldocinterpreter (Optional):26942}
+
+Review of Records:
+[ ] Reviewed old records, nothing pertinent to current complaint.
+[ ] No relevant recent visits.
+[ ] Reviewed old records, findings include
+@OTHERNOTESEND@
+ROS: Except as noted in the HPI, all other systems are reviewed and negative.
+
+PMHx, MEDICATIONS, & ALLERGIES
+@OTHERNOTESBEGIN@
+PAST MEDICAL, SURGICAL, SOCIAL, & FAMILY HISTORY
+@PMH@
+@PSH@
+@SOCX@
+@FAMHX@
+
+MEDICATIONS
+@HMEDS2@
+
+ALLERGIES
+@ALLERGY@
+@OTHERNOTESEND@
+PHYSICAL EXAM
+Triage Vital Signs:
+@FLOW(6:first)@ | @FLOW(8:first)@ | @FLOW(5:first)@ | @FLOW(9:first)@ | @FLOW(10:first)@ @FLOW(301030:first)@ | @FLOW(14:first)@
+Other Vital Signs:
+@VS@
+
+O2 Saturation Interpretation:
+The oxygen saturation is @FLOW(10:FIRST)@ [@FLOW(301030:First)@], which is {Desc; adequate/inadequate:30688::"adequate"} per my interpretation.
+
+{exam}
+
+DIAGNOSTIC STUDIES
+
+ECG per my interpretation
+{EKG}
+
+Laboratory Results
+@OTHERNOTESBEGIN@
+@EDTHISVISIT@
+@OTHERNOTESEND@
+Imaging Results
+@OTHERNOTESBEGIN@
+@WETREAD@
+@OTHERNOTESEND@
+
+@EDDOCREGULATORY@
+
+ED MEDICATIONS, COURSE, & PROCEDURES
+
+ED Medications
+@EDMEDS@
+
+ED Course
+@EDCOURSE@
+
+ED Procedures
+
+
+DDX & MEDICAL DECISION MAKING
+
+@NAME@ is a @AGE@ @SEX@ who presents ***
+
+
+
+DIAGNOSIS & DISPOSITION
+
+@DIAGX@
+
+@DISPOED@
+
+
+
+DISCHARGE MEDICATIONS
+
+@EDPTMEDSTART@

@@ -1,26 +1,17 @@
+ 
 
-
-
-History of Present Illness
+HISTORY OF PRESENT ILLNESS
 @CC@
 
-@NAME@ is a @AGE@ @SEX@ who presents ***
+@NAME@ is a @AGE@ @SEX@ *** 
 
-
-Interpreter & Review of Records
-@OTHERNOTESBEGIN@
-Interpreter Services (if used):
+Interpreter Services
 {edsldocinterpreter (Optional):26942}
 
-Review of Records:
-[ ] Reviewed old records, nothing pertinent to current complaint.
-[ ] No relevant recent visits.
-[ ] Reviewed old records, findings include
-@OTHERNOTESEND@
 ROS: Except as noted in the HPI, all other systems are reviewed and negative.
 
 PMHx, MEDICATIONS, & ALLERGIES
-@OTHERNOTESBEGIN@
+@OTHERNOTESBEGIN@ 
 PAST MEDICAL, SURGICAL, SOCIAL, & FAMILY HISTORY
 @PMH@
 @PSH@
@@ -34,47 +25,55 @@ ALLERGIES
 @ALLERGY@
 @OTHERNOTESEND@
 PHYSICAL EXAM
-Triage Vital Signs:
-@FLOW(6:first)@ | @FLOW(8:first)@ | @FLOW(5:first)@ | @FLOW(9:first)@ | @FLOW(10:first)@ @FLOW(301030:first)@ | @FLOW(14:first)@
-Other Vital Signs:
-@VS@
+Triage Vital Signs: 
+@FLOW(6:first)@ | @FLOW(8:first)@ | @FLOW(5:first)@ | @FLOW(9:first)@ | @FLOW(10:first)@ @FLOW(301030:first)@
+Weight & BMI:  
+@FLOW(14:last)@ | @FLOW(301070)@
 
 O2 Saturation Interpretation:
-The oxygen saturation is @FLOW(10:FIRST)@ [@FLOW(301030:First)@], which is {Desc; adequate/inadequate:30688::"adequate"} per my interpretation.
+The oxygen saturation is @FLOW(10:FIRST)@ [@FLOW(301030:First)@], which is {edsldocadequateinadequate (Optional):27021} per my interpretation.
 
 {exam}
 
 DIAGNOSTIC STUDIES
 
 ECG per my interpretation
-{EKG}
+{EKG} 
 
 Laboratory Results
-@OTHERNOTESBEGIN@
-@EDTHISVISIT@
+@OTHERNOTESBEGIN@ 
+@EDTHISVISIT@ 
 @OTHERNOTESEND@
 Imaging Results
-@OTHERNOTESBEGIN@
+@OTHERNOTESBEGIN@ 
 @WETREAD@
 @OTHERNOTESEND@
-
+STANDARDIZED & REGULATORY DOCUMENTATION
 @EDDOCREGULATORY@
 
 ED MEDICATIONS, COURSE, & PROCEDURES
 
 ED Medications
+@OTHERNOTESBEGIN@ 
 @EDMEDS@
-
+@OTHERNOTESEND@
 ED Course
 @EDCOURSE@
 
+
+Review of Records
+@OTHERNOTESBEGIN@ 
+[ ] Reviewed old records, nothing pertinent to current complaint.
+[ ] No relevant recent visits.
+[ ] Reviewed old records, findings include                 
+@OTHERNOTESEND@
 ED Procedures
+
 
 
 DDX & MEDICAL DECISION MAKING
 
-@NAME@ is a @AGE@ @SEX@ who presents ***
-
+@NAME@ is a @AGE@ @SEX@ *** 
 
 
 DIAGNOSIS & DISPOSITION
@@ -82,7 +81,6 @@ DIAGNOSIS & DISPOSITION
 @DIAGX@
 
 @DISPOED@
-
 
 
 DISCHARGE MEDICATIONS

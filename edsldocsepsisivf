@@ -4,13 +4,13 @@
 
 [IBW] The patient has a BMI >30 and was volume resuscitated with 30 mL/kg based on IBW.
 
-[Less: Responded] crystalloid fluids (see above for volume) were given in lieu of a 30 cc/kg bolus because the blood pressure responded to a lesser volume.
+[Less: Responded] *** ml of crystalloid fluids were given in lieu of a 30 cc/kg bolus because the blood pressure responded to a lesser volume.
 
-[Less: Volume Overload] crystalloid fluids (see above for volume) were given in lieu of a 30 cc/kg bolus because the clinician has concern for volume overload.
+[Less: Volume Overload] *** ml of crystalloid fluids were given in lieu of a 30 cc/kg bolus because the clinician has concern for volume overload.
 
-[Less: Heart Failure] crystalloid fluids (see above for volume) were given in lieu of a 30 cc/kg bolus because the clinician has concern for heart failure.
+[Less: Heart Failure] *** ml of crystalloid fluids were given in lieu of a 30 cc/kg bolus because the clinician has concern for heart failure.
 
-[Less: Renal Failure] crystalloid fluids (see above for volume) were given in lieu of a 30 cc/kg bolus because the clinician has concern for renal failure.
+[Less: Renal Failure] *** ml of crystalloid fluids were given in lieu of a 30 cc/kg bolus because the clinician has concern for renal failure.
 
 [Refused] The patient/surrogate decision maker refused 30 mL/kg fluid resuscitation after a risk/benefit discussion.
 

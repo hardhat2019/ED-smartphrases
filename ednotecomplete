@@ -1,17 +1,17 @@
- 
+
 
 HISTORY OF PRESENT ILLNESS
 @CC@
 
-@NAME@ is a @AGE@ @SEX@ *** 
+@NAME@ is a @AGE@ @SEX@ ***
+
+ROS: Except as noted in the HPI, all other systems are reviewed and negative.
 
 Interpreter Services
 {edsldocinterpreter (Optional):26942}
 
-ROS: Except as noted in the HPI, all other systems are reviewed and negative.
-
 PMHx, MEDICATIONS, & ALLERGIES
-@OTHERNOTESBEGIN@ 
+@OTHERNOTESBEGIN@
 PAST MEDICAL, SURGICAL, SOCIAL, & FAMILY HISTORY
 @PMH@
 @PSH@
@@ -25,9 +25,9 @@ ALLERGIES
 @ALLERGY@
 @OTHERNOTESEND@
 PHYSICAL EXAM
-Triage Vital Signs: 
+Triage Vital Signs:
 @FLOW(6:first)@ | @FLOW(8:first)@ | @FLOW(5:first)@ | @FLOW(9:first)@ | @FLOW(10:first)@ @FLOW(301030:first)@
-Weight & BMI:  
+Weight & BMI:
 @FLOW(14:last)@ | @FLOW(301070)@
 
 O2 Saturation Interpretation:
@@ -36,44 +36,42 @@ The oxygen saturation is @FLOW(10:FIRST)@ [@FLOW(301030:First)@], which is {edsl
 {exam}
 
 DIAGNOSTIC STUDIES
-
+@OTHERNOTESBEGIN@
 ECG per my interpretation
-{EKG} 
+{EKG}
 
 Laboratory Results
-@OTHERNOTESBEGIN@ 
-@EDTHISVISIT@ 
-@OTHERNOTESEND@
+@EDTHISVISIT@
+
 Imaging Results
-@OTHERNOTESBEGIN@ 
 @WETREAD@
 @OTHERNOTESEND@
-STANDARDIZED & REGULATORY DOCUMENTATION
-@EDDOCREGULATORY@
+STANDARDIZED DOCUMENTATION, ED MEDICATIONS, & REVIEW OF RECORDS
 
-ED MEDICATIONS, COURSE, & PROCEDURES
+@EDNOTEREGULATORYSECTION@
 
+ED MEDICATIONS, & REVIEW OF RECORDS
+@OTHERNOTESBEGIN@
 ED Medications
-@OTHERNOTESBEGIN@ 
 @EDMEDS@
+
+Review of Records
+[ ] Reviewed old records, nothing pertinent to current complaint.
+[ ] No relevant recent visits.
+[ ] Reviewed old records, findings include
 @OTHERNOTESEND@
+
 ED Course
 @EDCOURSE@
 
 
-Review of Records
-@OTHERNOTESBEGIN@ 
-[ ] Reviewed old records, nothing pertinent to current complaint.
-[ ] No relevant recent visits.
-[ ] Reviewed old records, findings include                 
-@OTHERNOTESEND@
-ED Procedures
+ED PROCEDURES
 
 
 
 DDX & MEDICAL DECISION MAKING
 
-@NAME@ is a @AGE@ @SEX@ *** 
+@NAME@ is a @AGE@ @SEX@ ***
 
 
 DIAGNOSIS & DISPOSITION

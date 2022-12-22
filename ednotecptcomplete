@@ -1,0 +1,116 @@
+
+
+HISTORY OF PRESENT ILLNESS
+@CC@
+
+@NAME@ is a @AGE@ @SEX@ ***
+
+
+Additional history from independent historians: {info source:60032}
+
+Interpreter Services: {edsldocinterpreter (Optional):26942}
+
+Review of External Medical Records:
+
+{  }
+
+ROS: Except as noted in the HPI, all other systems are reviewed and negative.
+
+PMHx, MEDICATIONS, & ALLERGIES
+@OTHERNOTESBEGIN@
+PAST MEDICAL, SURGICAL, SOCIAL, & FAMILY HISTORY
+@PMH@
+@PSH@
+@SOCX@
+@FAMHX@
+
+MEDICATIONS
+@HMEDS2@
+
+ALLERGIES
+@ALLERGY@
+@OTHERNOTESEND@
+PHYSICAL EXAM
+Triage Vital Signs:
+@FLOW(6:first)@ | @FLOW(8:first)@ | @FLOW(5:first)@ | @FLOW(9:first)@ | @FLOW(10:first)@ @FLOW(301030:first)@
+Weight & BMI:
+@FLOW(14:last)@ | @FLOW(301070)@
+
+{exam}
+
+DIAGNOSTIC STUDIES
+
+ECG Independent Interpretation by ED Provider
+{ECG}
+@OTHERNOTESBEGIN@
+Laboratory Results
+@EDONLYLABS@
+
+Imaging Results
+@WETREAD@
+@OTHERNOTESEND@
+
+Independent Interpretation of Tests
+
+{  }
+
+
+STANDARDIZED DOCUMENTATION, ED MEDICATIONS, & REVIEW OF RECORDS
+
+@EDNOTEREGULATORYSECTION@
+
+ED MEDICATIONS
+@OTHERNOTESBEGIN@
+@EDONLYMEDS@
+@OTHERNOTESEND@
+
+ED Course
+@EDCOURSE@
+
+
+ED PROCEDURES
+
+
+
+MEDICAL DECISION MAKING
+
+@NAME@ is a @AGE@ @SEX@ ***
+
+
+DIAGNOSIS & DISPOSITION
+
+@DIAGX@
+
+@DISPOED@
+
+
+COMPLEXITY OF PATIENT MANAGEMENT
+@OTHERNOTESBEGIN@
+Key differential diagnoses: {  }
+
+Chronic medical conditions impacting care: {  }
+
+Diagnostic tests appropriately considered but not performed: {  }
+
+Management discussions with other healthcare providers: {  }
+
+Consideration for hospitalization / Escalation or de-escalation of care:  {  }
+
+Prescription drug management (considered or given):
+[ ] Reviewed home medications, continue as prescribed except as noted in the AVS.
+
+Medications considered but not given: {  }
+
+Current Discharge Medication List
+@EDPTMEDSTART@
+
+Social determinants of health: {  }
+Economic stability:
+Housing:
+Transportation:
+Neighborhood safety:
+Communication barriers:
+Social supports:
+Access to health care:
+
+@OTHERNOTESEND@

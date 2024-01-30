@@ -1,7 +1,11 @@
+CHIEF COMPLAINT & TRIAGE
 
-
-HISTORY OF PRESENT ILLNESS
 @CC@
+@OTHERNOTESBEGIN@
+Triage Note:
+@EDHPITRIAGENOTE@
+@OTHERNOTESEND@
+HISTORY OF PRESENT ILLNESS
 
 @NAME@ is a @AGE@ @SEX@ ***
 
@@ -12,9 +16,7 @@ Interpreter Services: {edsldocinterpreter (Optional):26942}
 
 Review of External Medical Records:
 
-{  }
-
-ROS: Except as noted in the HPI, all other systems are reviewed and negative.
+ {< >:27695}
 
 PMHx, MEDICATIONS, & ALLERGIES
 @OTHERNOTESBEGIN@
@@ -39,21 +41,21 @@ Weight & BMI:
 {exam}
 
 DIAGNOSTIC STUDIES
-
-ECG Independent Interpretation by ED Provider
-{ECG}
 @OTHERNOTESBEGIN@
+ECG Independent Interpretation by ED Provider
+
+{ECG}
+
 Laboratory Results
 @EDONLYLABS@
 
 Imaging Results
 @WETREAD@
-@OTHERNOTESEND@
 
 Independent Interpretation of Tests
 
-{  }
-
+ {< >:27695}
+@OTHERNOTESEND@
 
 STANDARDIZED DOCUMENTATION, ED MEDICATIONS, & REVIEW OF RECORDS
 
@@ -67,10 +69,11 @@ ED MEDICATIONS
 ED Course
 @EDCOURSE@
 
+Last set of vital signs: @VITALSINPATIENT@
 
-ED PROCEDURES
+ED PROCEDURES & CRITICAL CARE
 
-
+ {< >:27695}
 
 MEDICAL DECISION MAKING
 
@@ -85,32 +88,27 @@ DIAGNOSIS & DISPOSITION
 
 
 COMPLEXITY OF PATIENT MANAGEMENT
+See MDM and ED Course unless otherwise noted here
+
+Key differential diagnoses include but is not limited to: {< >:27695}
+
+Chronic medical conditions impacting care: {< >:27695}
+
+Diagnostic tests appropriately considered but not performed: {< >:27695}
+
+Management discussions with other healthcare providers: {< >:27695}
+
+Consideration for hospitalization / Escalation or de-escalation of care:  {< >:27695}
+
 @OTHERNOTESBEGIN@
-Key differential diagnoses: {  }
-
-Chronic medical conditions impacting care: {  }
-
-Diagnostic tests appropriately considered but not performed: {  }
-
-Management discussions with other healthcare providers: {  }
-
-Consideration for hospitalization / Escalation or de-escalation of care:  {  }
-
 Prescription drug management (considered or given):
-[ ] Reviewed home medications, continue as prescribed except as noted in the AVS.
+Medications considered but not given: {< >:27695}
 
-Medications considered but not given: {  }
+[ ] Reviewed home medications, continue as prescribed except as noted in the AVS.
 
 Current Discharge Medication List
 @EDPTMEDSTART@
 
-Social determinants of health: {  }
-Economic stability:
-Housing:
-Transportation:
-Neighborhood safety:
-Communication barriers:
-Social supports:
-Access to health care:
+Social determinants of health: {SDOH:27746}
 
 @OTHERNOTESEND@

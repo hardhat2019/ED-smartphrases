@@ -1,5 +1,5 @@
-```
 
+```
 Healthcare for the Homeless Resources:
 
 Healthcare for the Homeless- for help with linkage to services, transportation, housing:

@@ -1,3 +1,5 @@
+```
+
 Healthcare for the Homeless Resources:
 
 Healthcare for the Homeless- for help with linkage to services, transportation, housing:
@@ -67,3 +69,4 @@ Thursdays:
 Greater Richmond Interfaith Program
 165 22nd St Richmond
 1 pm - 3 pm
+```

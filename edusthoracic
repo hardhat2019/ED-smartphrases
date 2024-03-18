@@ -1,0 +1,8 @@
+Point of Care Ultrasound - Thoracic.
+Indication: {Blank single:19197::"Shortness of breath.","Chest pain.","Shortness of breath.", "Hypotension.", "Hypoxia.", "Abnormal breath sounds."}
+Findings: Lung sliding: {Blank single:19197::"Present.","Absent."}
+                Comet tails: {Blank single:19197::"Present.","Absent."}
+                Pleural effusion: {Blank single:19197::"Present.","Absent."}
+Impression: {Blank single:19197::"No sonographic evidence of acute pulmonary disease.","Pleural effusion present.","Alveolar interstitial disease present.", "Pneumothorax present."}
+
+Ultrasound performed by me and contemporaneously interpreted by me.

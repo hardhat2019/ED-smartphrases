@@ -1,0 +1,8 @@
+Point of Care Ultrasound - Limited OB. 
+Indication: {Blank single:19197::"Pregnancy.","Vaginal bleeding.","Abdominal pain.", "Trauma.", "Hypotension.", "Syncope."}
+Findings: Gestational Sac: {Blank single:19197::"present.","absent."}
+                Fetal Cardiac Activity: {Blank single:19197::"present.","absent."}
+                Fetal Motion: {Blank single:19197::"present.","absent."}
+Impression: {Blank single:19197::"Intrauterine pregnancy present.","Live intrauterine pregnancy present.","Indeterminate study.","Sonographic evidence of fetal demise."}
+
+Ultrasound performed by me and contemporaneously interpreted by me.

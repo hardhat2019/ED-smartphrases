@@ -1,9 +1,9 @@
 Point of Care Ultrasound - Ocular. 
 Indication: {Blank single:19197::"Eye Pain.","Eye Trauma.","Vision Loss/Change.", "Eye Foreign Body."}
 Eye examined: {Blank single:19197::"Left.","Right.", "Both."}
-Findings: Foreign Body: {Blank single:19197::"present.","absent."}
-                Evidence of Retinal Detachment: {Blank single:19197::"present.","absent."}
-                Hemorrhage: {Blank single:19197::"present.","absent."}
+Findings: Foreign Body: {PRESENT/ABSENT:26542::"absent"}
+                Evidence of Retinal Detachment: {PRESENT/ABSENT:26542::"absent"}
+                Hemorrhage: {PRESENT/ABSENT:26542::"absent"}
 Impression: {Blank single:19197::"Sonographic evidence of retinal detachment.","Sonographic evidence of hemorrhage.","Ocular foreign body.", "Normal limited ocular study."}
 
 All images obtained are archived.

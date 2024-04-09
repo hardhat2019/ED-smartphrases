@@ -1,9 +1,9 @@
 Point of Care Ultrasound - Limited Abdomen.
 Indication: {Blank single:19197::"Abdominal Pain.","Flank Pain.","Abnormal Liver Functions Test(s).", "Jaundice.", "Nausea/Vomiting."}
-Findings: Gallstones: {Blank single:19197::"present.","absent."}
-                Gallbladder wall thickening: {Blank single:19197::"present.","absent."}
-                Pericholecystic Fluid: {Blank single:19197::"present.","absent."}
-                Sonographic Murphy's sign: {Blank single:19197::"present.","absent."}
+Findings: Gallstones: {PRESENT/ABSENT:26542::"absent"}
+                Gallbladder wall thickening: {PRESENT/ABSENT:26542::"absent"}
+                Pericholecystic Fluid: {PRESENT/ABSENT:26542::"absent"}
+                Sonographic Murphy's sign: {PRESENT/ABSENT:26542::"absent"}
 Impression: {Blank single:19197::"Cholelithiasis.","Sonographic evidence of cholecystitis.", "Normal limited abdomen study."}
 
 All images obtained are archived.

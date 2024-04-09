@@ -1,7 +1,7 @@
 Point of Care Ultrasound - Limited Echo.
 Indication: {Blank single:19197::"Shortness of breath.","Chest pain.","Dizziness.", "Hypotension.", "Cardiac Arrest."}
 Findings: Pericardial Effusion: {Blank single:19197::"Present.","Absent."}
-                LV Function: {Blank single:19197::"Normal.", "Hyperdnamic.", "Diminished.", "Severely Diminished.", "Absent."}
+                LV Function: {Blank single:19197::"Normal.", "Hyperdynamic.", "Diminished.", "Severely Diminished.", "Absent."}
                 Left Atrium: {Blank single:19197::"Normal.","Dilated.", "Indeterminate."}
                 Right Ventricle: {Blank single:19197::"Normal.","Dilated.", "Indeterminate."}
                 IVC Collapsibility: {Blank single: 19197::"Normal.", "High Collapsibility.", "Low Collapsibility."}

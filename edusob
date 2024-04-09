@@ -1,9 +1,9 @@
-Point of Care Ultrasound - Limited OB. 
-Indication: {Blank single:19197::"Pregnancy.","Vaginal bleeding.","Abdominal pain.", "Trauma.", "Hypotension.", "Syncope."}
-Findings: Gestational Sac: {Blank single:19197::"present.","absent."}
-                Fetal Cardiac Activity: {Blank single:19197::"present.","absent."}
-                Fetal Motion: {Blank single:19197::"present.","absent."}
-Impression: {Blank single:19197::"Intrauterine pregnancy present.","Live intrauterine pregnancy present.","Indeterminate study.","Sonographic evidence of fetal demise."}
+Point of Care Ultrasound - Limited OB.
+Indication: {Blank single:19197::"Vaginal bleeding.","Abdominal pain.", "Trauma.", "Hypotension.", "Syncope.", "Pregnancy."}
+Findings: Gestational Sac: {PRESENT/ABSENT:26542::"present"}
+                Fetal Cardiac Activity: {PRESENT/ABSENT:26542::"present"}
+                Fetal Motion: {PRESENT/ABSENT:26542::"present"}
+Impression: {Blank single:19197::"Intrauterine pregnancy present.","Indeterminate study.","Sonographic evidence of fetal demise.", "Live intrauterine pregnancy present."}
 
 All images obtained are archived.
 Performed and electronically signed by me: @MECRED@

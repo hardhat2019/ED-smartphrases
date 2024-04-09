@@ -4,8 +4,8 @@ Findings: Pericardial Effusion: {Blank single:19197::"Present.","Absent."}
                 LV Function: {Blank single:19197::"Normal.", "Hyperdnamic.", "Diminished.", "Severely Diminished.", "Absent."}
                 Left Atrium: {Blank single:19197::"Normal.","Dilated.", "Indeterminate."}
                 Right Ventricle: {Blank single:19197::"Normal.","Dilated.", "Indeterminate."}
-                IVC Collapsibility: {Blank single: 19197::"Normal.", "High Collapsibility.", "Low Collapsibility." 
-Impression: {Blank single:19197::"No sonographic evidence of significant pericardial effusion or cardiac dysfunction.","Pericardial effusion present.","Diminished LV function.", "Hyperdynamic LV function.", "Evidence of RV strain.", "Cardiac standstill.", "Dilated IVC."}
+                IVC Collapsibility: {Blank single: 19197::"Normal.", "High Collapsibility.", "Low Collapsibility."}
+Impression: {Blank single:19197::"No sonographic evidence of significant pericardial effusion or cardiac dysfunction.","Pericardial effusion present.","Diminished LV function.", "Hyperdynamic LV function.", "Evidence of RV strain.", "Dilated IVC.", "Cardiac standstill."}
 
 All images obtained are archived.
 Performed and electronically signed by me: @MECRED@

@@ -1,3 +1,3 @@
 MIPS 116 - Avoidance of Antibiotics for Acute Bronchitis or Bronchiolitis
 
-MIPS 116 - The patient presents with acute {Blank multiple:19197::"bronchiolitis", "bronchitis"}.  {Blank single:19197::"Antibiotics were prescribed because of an acute concurrent infection or chronic medical condition increasing risk for bacterial infection - ***(list condition)", "Antibiotics were not prescribed."}
+MIPS 116 - The patient presents with acute {Blank multiple:19197::"bronchiolitis", "bronchitis"}.  {Blank single:19197::"Antibiotics were prescribed because of an acute concurrent infection or chronic medical condition increasing risk for bacterial infection - ***", "Antibiotics were not prescribed."}

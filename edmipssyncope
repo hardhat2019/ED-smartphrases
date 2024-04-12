@@ -1,3 +1,3 @@
-ECPR 39 - Avoidance of Head CT for Uncomplicated Syncope
+ECPR 39 - Avoid Head CT for Patients with Uncomplicated Syncope
 
-The patient presents with syncope.  A head CT was or”Drug or alcohol intoxication.”,”Vomiting.”,”Altered mental status.”,”An abnormal neurologic examination.”,”An abnormal neurologic examination.","Concern for intracranial hemorrhage, stroke, or mass lesion.”}
+ECPR 39 - The patient presents with syncope.  {Blank single:19197::"A head CT was ordered because of drug or alcohol intoxication.","A head CT was ordered because of vomiting.","A head CT was ordered because of altered mental status.","A head CT was ordered because of an abnormal neurologic examination.","A head CT was ordered because of concern for intracranial hemorrhage, stroke, or mass lesion.", "A head CT was NOT ordered."}

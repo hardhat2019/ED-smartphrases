@@ -1,3 +1,8 @@
 ECPR 56 - Opioid Withdrawal: Initiation of MAT and Referral to Outpatient Opioid Treatment
 
-The patient presents with opioid withdrawal.  {Blank single:19197::"Buprenorphine was ordered, and the patient was referred to further outpatient treatment for opioid use disorder.","Buprenorphine was ordered, but the patient refused referral to outpatient opioid use disorder treatment.","Buprenorphine was NOT ordered due to patient refusal to take the medication.","Buprenorphine was NOT ordered due to patient's allergy to the medication.","Buprenorphine was NOT ordered due to the patient's altered mental status.”}
+The patient presents with opioid withdrawal.  {Blank single:19197::
+"Buprenorphine was ordered, and the patient was referred to further outpatient treatment for opioid use disorder.",
+"Buprenorphine was ordered, but the patient refused referral to outpatient opioid use disorder treatment.",
+"Buprenorphine was NOT ordered due to patient refusal to take the medication.",
+"Buprenorphine was NOT ordered due to patient's allergy to the medication.",
+"Buprenorphine was NOT ordered due to the patient's altered mental status."}

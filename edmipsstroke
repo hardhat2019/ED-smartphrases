@@ -1,3 +1,8 @@
 MIPS 187 - Thrombolytic Therapy for Stroke
 
-The patient presented with an acute ischemic stroke.  {Blank single:19197::"tPA was administered within 3 hours of time last known well.","tPA was NOT administered because the patient presented outside of the safe therapeutic time window for tPA administration.","tPA was NOT administered because of a contraindication - ***.","tPA was NOT administered because the patient and/or the patient's surrogate decision maker refused the medication."}
+The patient presented with an acute ischemic stroke.  {Blank single:19197::
+"tPA was administered within 3 hours of time last known well.",
+"tPA was NOT administered because of a contraindication - ***.",
+"tPA was NOT administered because the patient and/or the patient's surrogate decision maker refused the medication.",
+"tPA was NOT administered because the patient presented outside of the safe therapeutic time window for tPA administration."
+}

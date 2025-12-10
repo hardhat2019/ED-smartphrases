@@ -6,6 +6,6 @@ Indications for this procedure as well as risks, benefits and alternatives were 
 
 Gastric tube replacement indicated for {Blank single:19197::"malfunction","balloon dysfunction","dislodgement","accidental patient removal"} 
 
-{JMH Multiple Wild Card:40000::"The procedure was not completed successfully.","The procedure was completed successfully.","A *** French *** tube was placed.","The balloon was inflated with saline.","The tube irrigated easily.","The placement was confirmed by X-ray with gastrograffin.","A dressing was applied to the gastrostomy tube site."}
+{JMH Multiple Wild Card:40000::"The procedure was not completed successfully.","The procedure was completed successfully.","A *** French *** tube was placed.","The balloon was inflated with sterile water.","The tube irrigated easily.","The placement was confirmed by X-ray with gastrograffin.","A dressing was applied to the gastrostomy tube site."}
 
 The patient tolerated the procedure well with no immediate complications
